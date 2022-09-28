@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Controle Acadêmico</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="Inicio">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Calendario" routerLink="/calendario">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Calendário</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Notas" routerLink="/notas">
+        <ion-icon name="calculator"></ion-icon>
+        <ion-label>Notas</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Sair">
+        <ion-icon name="exit"></ion-icon>
+        <ion-label>Sair</ion-label>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Notas</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="Inicio" routerLink="/inicio">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Calendario" routerLink="/calendario">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Calendário</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="Sair">
+        <ion-icon name="exit"></ion-icon>
+        <ion-label>Sair</ion-label>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
